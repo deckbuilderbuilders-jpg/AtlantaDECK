@@ -6,12 +6,12 @@ const ServicesSection = () => {
     {
       title: "Repairs",
       description: "Decks require maintenance. We make it easy to keep your deck safe and well maintained.",
-      features: ["Send us a photo of the area you need repaired", "We'll take a look and give you a fair price. Guaranteed", "Book your repair online and your finished. it's that easy","One price. If we make a mistake you don't pay a dime more"]
+      features: ["Snap a pic of the area you need repaired.", "We'll take a look and give you a fair price. Guaranteed.", "Book your repair online and your finished. It's that easy.","One price. If we make a mistake you don't pay a dollar more."]
     },
     {
       title: "New builds",
       description: "Build your vision with us",
-      features: ["Snap some photos of the space where your deck is (or where you want it to be)", "Hop on a short call with us to discuss the design you want", "Well put together a complimentary estimate and help you design the perfect space"]
+      features: ["Snap a pics of where you want your deck to be.", "Hop on a short call with us to discuss the design you want.", "Well give you a free estimate and help you design the perfect deck."]
     }
   ];
 
