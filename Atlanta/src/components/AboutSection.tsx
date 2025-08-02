@@ -6,7 +6,7 @@ const AboutSection = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-hero-text mb-6">
-            Why Choose Atlanta Decks?
+            Why Choose Atlanta Deck Co?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             We believe in honest pricing, quality craftsmanship, and transparent communication throughout your project.
