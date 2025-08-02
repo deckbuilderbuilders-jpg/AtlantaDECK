@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import QuoteModal from "./QuoteModal"; 
 
 const CTASection = () => {
   return (
@@ -13,12 +14,14 @@ const CTASection = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button size="lg" className="px-8 py-6 text-lg">
-            Get Free Quote
-          </Button>
-          <Button variant="outline" size="lg" className="px-8 py-6 text-lg">
-            Call (404) 259-5099
-          </Button>
+          <QuoteModal />
+          <Button 
+  size="lg" 
+  className="px-8 py-6 text-lg"
+  onClick={() => window.location.href = 'tel:+14042595099'}
+>
+  Call Now +1 404 259 5099
+</Button>
         </div>
         
         <p className="text-sm text-muted-foreground mt-8">
