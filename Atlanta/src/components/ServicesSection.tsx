@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import PortfolioPopup from './PortfolioPopup';
 
 const ServicesSection = () => {
   const services = [
@@ -26,7 +27,6 @@ const ServicesSection = () => {
             From simple deck repairs to complete outdoor living transformations, we handle projects of all sizes.
           </p>
         </div>
-
         <div className="grid md:grid-cols-2 gap-8">
           {services.map((service, index) => (
             <Card key={index} className="border-border shadow-sm hover:shadow-md transition-shadow">
@@ -49,11 +49,11 @@ const ServicesSection = () => {
             </Card>
           ))}
         </div>
-
         <div className="text-center mt-16">
-          <Button size="lg" className="px-8">
-            View Our Portfolio
-          </Button>
+          <PortfolioPopup 
+            buttonText="View Our Portfolio"
+            buttonClassName="px-8 py-3 text-lg bg-primary text-primary-foreground hover:bg-primary/90 rounded-md transition-colors"
+          />
         </div>
       </div>
     </section>
