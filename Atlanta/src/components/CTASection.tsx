@@ -27,7 +27,7 @@ const CTASection = () => {
         </div>
         
         <p className="text-sm text-muted-foreground mt-8">
-          Free estimates • Licensed & insured • 5-year warranty
+          Free estimates • Licensed & insured • 3-year warranty
         </p>
       </div>
     </section>
