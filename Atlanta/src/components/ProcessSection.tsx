@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import QuoteModal from "./QuoteModal"; 
 
 const ProcessSection = () => {
   const steps = [
@@ -53,9 +54,8 @@ const ProcessSection = () => {
         </div>
 
         <div className="text-center mt-16">
-          <Button size="lg" className="px-8">
+          <QuoteModal />
           Design Your Dream Deck
-          </Button>
         </div>
       </div>
     </section>
