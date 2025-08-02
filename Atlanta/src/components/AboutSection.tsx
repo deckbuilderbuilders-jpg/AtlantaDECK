@@ -9,9 +9,8 @@ const AboutSection = () => {
             Why Choose Atlanta Deck Co?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Choosing a trustworthy contractor is tough. 
-            <br />
-            That's why we believe in transparent pricing, quality craftsmanship, and constant communication throughout your project.
+            <p style={{marginBottom: '20px'}}>Choosing a trustworthy contractor is tough.</p>
+<p>That's why we believe in transparent pricing, quality craftsmanship, and constant communication throughout your project.</p>
           </p>
         </div>
 
