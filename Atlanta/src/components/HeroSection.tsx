@@ -9,7 +9,7 @@ const HeroSection = () => {
         <img 
           src={heroImage} 
           alt="Beautiful wooden deck" 
-          className="w-full h-full object-cover opacity-5"
+          className="w-full h-full object-cover opacity-70"
         />
       </div>
 
