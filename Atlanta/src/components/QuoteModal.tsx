@@ -17,8 +17,14 @@ const QuoteModal = () => {
 
       {/* Popup Window */}
       {isOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-          <div className="bg-white p-8 rounded-lg max-w-md w-full mx-4">
+        <div 
+          className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
+          onClick={() => setIsOpen(false)}
+        >
+          <div 
+            className="bg-white p-8 rounded-lg max-w-md w-full mx-4"
+            onClick={(e) => e.stopPropagation()}
+          >
             <h2 className="text-2xl font-bold mb-4 text-black">Get Your Quote</h2>
             
             {/* Form */}
