@@ -16,7 +16,7 @@ const CTASection = () => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <QuoteModal />
            <Button variant="secondary" size="lg" className="px-8 py-6 text-lg">
-             onClick={() => window.location.href = 'tel:+14042595099'} >
+             onClick={() => window.location.href = 'tel:+14042595099'} 
           </Button>
 
         </div>
