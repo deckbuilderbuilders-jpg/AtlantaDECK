@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import PortfolioPopup from './components/PortfolioPopup';
+import PortfolioPopup from './PortfolioPopup';
 
 const Header = () => {
   return (
