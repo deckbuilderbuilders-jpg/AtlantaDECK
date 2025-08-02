@@ -54,7 +54,10 @@ const ProcessSection = () => {
         </div>
 
         <div className="text-center mt-16">
-          <QuoteModal />
+          <QuoteModal 
+  buttonText="Design Your Dream Deck" 
+  buttonClass="px-8"
+/>
         </div>
       </div>
     </section>
