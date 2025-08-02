@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 
-const QuoteModal = () => {
+const QuoteModal = ({ buttonText = "Get a Quote", buttonClass = "px-8 py-6 text-lg" }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -9,10 +9,10 @@ const QuoteModal = () => {
       {/* Button that opens the popup */}
       <Button 
         size="lg" 
-        className="px-8 py-6 text-lg"
+        className={buttonClass}
         onClick={() => setIsOpen(true)}
       >
-        Get a Quote
+        {buttonText}
       </Button>
 
       {/* Popup Window */}
