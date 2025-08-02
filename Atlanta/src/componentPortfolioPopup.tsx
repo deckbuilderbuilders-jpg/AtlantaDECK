@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { X, ChevronLeft, ChevronRight, ExternalLink, Loader2 } from 'lucide-react';
 
-const PortfolioPopup = () => {
+const PortfolioPopup = ({ 
+  buttonText = "Portfolio", 
+  buttonClassName = "text-nav-text hover:text-foreground transition-colors",
+  variant = "link" // "link" or "button"
+}) => {
   const [isOpen, setIsOpen] = useState(false);
   const [images, setImages] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -130,9 +134,9 @@ const PortfolioPopup = () => {
       {/* Trigger Button */}
       <button
         onClick={openPopup}
-        className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200 shadow-lg"
+        className={buttonClassName}
       >
-        View Portfolio
+        {buttonText}
       </button>
 
       {/* Portfolio Popup */}
