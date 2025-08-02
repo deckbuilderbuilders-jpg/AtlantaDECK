@@ -1,10 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { X, ChevronLeft, ChevronRight, ExternalLink, Loader2 } from 'lucide-react';
 
-const PortfolioPopup = ({ 
+interface PortfolioPopupProps {
+  buttonText?: string;
+  buttonClassName?: string;
+  variant?: 'link' | 'button';
+}
+
+const PortfolioPopup: React.FC<PortfolioPopupProps> = ({ 
   buttonText = "Portfolio", 
   buttonClassName = "text-nav-text hover:text-foreground transition-colors",
-  variant = "link" // "link" or "button"
+  variant = "link"
 }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [images, setImages] = useState([]);
