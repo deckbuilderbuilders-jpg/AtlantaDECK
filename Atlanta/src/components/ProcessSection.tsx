@@ -15,7 +15,7 @@ const ProcessSection = () => {
     {
       number: "03",
       title: "Get a Quote",
-      description: "We're a bit different ... we charge for our quotes ($295 and up). We're very good at what we do, so we stay busy. The design fee's helps us spend  more with you, designing the perfect deck. If you choose us to build the deck, it's credited towards your bill. If not, you keep the design."
+      description: "We're a bit different ... we charge for our quotes ($295 and up). We're very good at what we do, so we stay busy. The design fee helps us spend more time with you designing your perfect deck. The fee is credited towards your bill and lets you shop around for better quotes."
     },
     {
       number: "04",
