@@ -11,7 +11,7 @@ const ServicesSection = () => {
     {
       title: "New builds",
       description: "Build your vision with us",
-      features: ["Snap a pics of where you want your deck to be.", "Hop on a short call with us to discuss the design you want.", "Well give you a free estimate and help you design the perfect deck."]
+      features: ["Snap a pics of where you want your deck to be.", "Hop on a short call with us to discuss the design you want.", "We'll put together a free estimate and answer any questions about cost.", "Schedule an in-person consultation to finalize your design." ]
     }
   ];
 
