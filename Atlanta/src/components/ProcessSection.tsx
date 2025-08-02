@@ -55,7 +55,6 @@ const ProcessSection = () => {
 
         <div className="text-center mt-16">
           <QuoteModal />
-          Design Your Dream Deck
         </div>
       </div>
     </section>
