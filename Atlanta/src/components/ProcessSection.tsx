@@ -5,22 +5,22 @@ const ProcessSection = () => {
     {
       number: "01",
       title: "Snap a pic",
-      description: "send us a few pics so we can see what your existing deck and what your yard looks like"
+      description: "Send us a few pics so we can see what your yard looks like and if you have any existing structures we need to remove or modify."
     },
     {
       number: "02", 
       title: "Design your deck",
-      description: "hop on a quick call with one of our trained designers to discuss materials choices, deck size and ultimately get an estimate."
+      description: "Hop on a quick call with one of our professional designers to discuss materials choices, deck size and ultimately get a free estimate for your project."
     },
     {
       number: "03",
       title: "Get a Quote",
-      description: "we're a bit different ... we charge for our quotes ($295 and up). We're very good at what we do, so we stay busy. The design fee's helps us spend  more with you, designing the perfect deck. If you choose us to build the deck, it's credited towards your bill. If not, you keep the design."
+      description: "We're a bit different ... we charge for our quotes ($295 and up). We're very good at what we do, so we stay busy. The design fee's helps us spend  more with you, designing the perfect deck. If you choose us to build the deck, it's credited towards your bill. If not, you keep the design."
     },
     {
       number: "04",
       title: "Built Better Guarantee",
-      description: "we understand that choosing a contractor to renovate your home can be stressful. That's why we have our Built Better Guarantee. If we make a mistake, and someone else catches us (during our 3 year warrantee period) we'll fix it for free, or pay someone else to fix it. Guaranteed."
+      description: "We know that choosing a good contractor is tough. That's why we have our Built Better Guarantee. If we make a mistake, we'll fix it for free, Guaranteed."
     }
   ];
 
