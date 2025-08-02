@@ -23,7 +23,7 @@ const Header = () => {
             FAQ
           </a>
           <Button variant="outline" size="sm">
-            <a href="tel:+14042595099">Call Now +1 404 259 5099</a>
+            <a href="tel:+14042595099">Call Now 404 259 5099</a>
           </Button>
         </nav>
 
