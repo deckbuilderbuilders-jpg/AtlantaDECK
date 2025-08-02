@@ -9,7 +9,7 @@ const AboutSection = () => {
             Why Choose Atlanta Deck Co?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            We believe in honest pricing, quality craftsmanship, and transparent communication throughout your project.
+            Choosing a trustworthy contractor is tough. That's why we believe in transparent pricing, quality craftsmanship, and constant communication throughout your project.
           </p>
         </div>
 
