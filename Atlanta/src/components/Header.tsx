@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import PortfolioPopup from './components/PortfolioPopup';
 
 const Header = () => {
   return (
@@ -19,6 +20,7 @@ const Header = () => {
           <a href="#process" className="text-nav-text hover:text-foreground transition-colors">
             Process
           </a>
+          <PortfolioPopup />
           <a href="#faq" className="text-nav-text hover:text-foreground transition-colors">
             FAQ
           </a>
