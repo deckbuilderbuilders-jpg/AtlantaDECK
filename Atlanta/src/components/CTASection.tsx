@@ -15,13 +15,10 @@ const CTASection = () => {
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <QuoteModal />
-          <Button 
-  size="lg" 
-  className="px-8 py-6 text-lg"
-  onClick={() => window.location.href = 'tel:+14042595099'}
->
-  Call Now +1 404 259 5099
-</Button>
+           <Button variant="secondary" size="lg" className="px-8 py-6 text-lg">
+             onClick={() => window.location.href = 'tel:+14042595099'} >
+          </Button>
+
         </div>
         
         <p className="text-sm text-muted-foreground mt-8">
