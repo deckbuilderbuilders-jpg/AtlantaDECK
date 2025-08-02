@@ -43,6 +43,19 @@ const QuoteModal = () => {
                 className="w-full p-3 border rounded-lg h-24"
               />
               
+              {/* Fast Service Call Button */}
+              <div className="text-center py-2 border-t border-gray-200">
+                <p className="text-sm text-gray-600">
+                  Need faster service?{" "}
+                  <a 
+                    href="tel:+14042595099" 
+                    className="text-blue-600 hover:text-blue-800 font-medium"
+                  >
+                    Call now +1 404 259 5099
+                  </a>
+                </p>
+              </div>
+
               <div className="flex gap-3">
                 <Button type="submit" className="flex-1">
                   Submit Quote Request
