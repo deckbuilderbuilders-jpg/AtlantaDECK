@@ -28,7 +28,7 @@ const HeroSection = () => {
             variant="secondary" 
             size="lg" 
             className="px-8 py-6 text-lg"
-            onClick={scrollToProcess}
+      
           >
             How We're Different
           </Button>
