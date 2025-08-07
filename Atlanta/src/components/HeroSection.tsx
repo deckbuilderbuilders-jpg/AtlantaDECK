@@ -1,8 +1,15 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-deck.jpg";
-import QuoteModal from "./QuoteModal";  // ← NEW
+import QuoteModal from "./QuoteModal";
 
 const HeroSection = () => {
+  const scrollToProcess = () => {
+    const processSection = document.getElementById('process');
+    if (processSection) {
+      processSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-background">
       {/* Background Image */}
@@ -22,15 +29,21 @@ const HeroSection = () => {
         <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-2xl mx-auto">
           Atlanta's go-to for transparency & trust.
         </p>
+        
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <QuoteModal />  {/* ← CHANGED FROM BUTTON */}
-         <Button variant="secondary" size="lg" className="px-8 py-6 text-lg">
+          <QuoteModal />
+          <Button 
+            variant="secondary" 
+            size="lg" 
+            className="px-8 py-6 text-lg"
+            onClick={scrollToProcess}
+          >
             How We're Different
-          </Button>
           </Button>
         </div>
       </div>
     </section>
   );
 };
+
 export default HeroSection;
