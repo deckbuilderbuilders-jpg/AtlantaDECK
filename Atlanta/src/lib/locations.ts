@@ -40,20 +40,20 @@ const rawLocations: { name: string; region: string; serviceAreas?: string[] }[] 
   { name: "Doraville", region: "East Atlanta" },
 
   // Central / Intown (Accessible Areas) (16 - 23)
-  { name: "East Atlanta Village", region: "Central / Intown (Accessible Areas)" },
-  { name: "Grant Park", region: "Central / Intown (Accessible Areas)" },
-  { name: "Ormewood Park", region: "Central / Intown (Accessible Areas)" },
-  { name: "Kirkwood", region: "Central / Intown (Accessible Areas)" },
-  { name: "Edgewood", region: "Central / Intown (Accessible Areas)" },
-  { name: "Candler Park", region: "Central / Intown (Accessible Areas)" },
-  { name: "Virginia-Highland", region: "Central / Intown (Accessible Areas)" },
-  { name: "Inman Park", region: "Central / Intown (Accessible Areas)" },
+  { name: "East Atlanta Village", region: "Central / Intown " },
+  { name: "Grant Park", region: "Central / Intown " },
+  { name: "Ormewood Park", region: "Central / Intown " },
+  { name: "Kirkwood", region: "Central / Intown " },
+  { name: "Edgewood", region: "Central / Intown " },
+  { name: "Candler Park", region: "Central / Intown " },
+  { name: "Virginia-Highland", region: "Central / Intown " },
+  { name: "Inman Park", region: "Central / Intown " },
 
   // South / Southwest (Middle Income) (24 - 27)
-  { name: "East Point", region: "South / Southwest (Middle Income)" },
-  { name: "College Park", region: "South / Southwest (Middle Income)" },
-  { name: "Hapeville", region: "South / Southwest (Middle Income)" },
-  { name: "Union City", region: "South / Southwest (Middle Income)" },
+  { name: "East Point", region: "South / Southwest " },
+  { name: "College Park", region: "South / Southwest " },
+  { name: "Hapeville", region: "South / Southwest " },
+  { name: "Union City", region: "South / Southwest " },
 
   // West / Northwest (28 - 30)
   { name: "Smyrna", region: "West / Northwest" },
@@ -73,8 +73,8 @@ export const locations: Location[] = rawLocations.map((r) => ({
 const regionOrder = [
   "North / Northeast",
   "East Atlanta",
-  "Central / Intown (Accessible Areas)",
-  "South / Southwest (Middle Income)",
+  "Central / Intown ",
+  "South / Southwest ",
   "West / Northwest",
 ]
 
