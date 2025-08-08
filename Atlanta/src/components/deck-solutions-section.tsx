@@ -26,11 +26,11 @@ export default function DeckSolutionsSection({
             />
             <Card className="relative rounded-2xl border border-black/20 ring-1 ring-black/5 overflow-hidden transition-transform duration-300 ease-out group-hover:-translate-y-1.5">
               {/* Image */}
-              <div className="bg-muted h-64">
+              <div className="bg-muted h-80 flex items-center justify-center p-6">
                 <img
                   src="/deckrepair.png"
                   alt="Deck Repair"
-                  className="h-full w-full object-cover"
+                  className="max-h-full max-w-full object-contain"
                 />
               </div>
 
@@ -60,11 +60,11 @@ export default function DeckSolutionsSection({
             />
             <Card className="relative rounded-2xl border border-black/20 ring-1 ring-black/5 overflow-hidden transition-transform duration-300 ease-out group-hover:-translate-y-1.5">
               {/* Image */}
-              <div className="bg-muted h-64">
+              <div className="bg-muted h-80 flex items-center justify-center p-6">
                 <img
                   src="/newbuild.png"
                   alt="New Decks"
-                  className="h-full w-full object-cover"
+                  className="max-h-full max-w-full object-contain"
                 />
               </div>
 
