@@ -60,7 +60,7 @@ export default function DeckSolutionsSection({
             />
             <Card className="relative rounded-2xl border border-black/20 ring-1 ring-black/5 overflow-hidden transition-transform duration-300 ease-out group-hover:-translate-y-1.5">
               {/* Image */}
-              <div className="bg-muted h-80 flex items-center justify-center p-6">
+              <div className="bg-white h-80 flex items-center justify-center p-6">
                 <img
                   src="/newbuild.png"
                   alt="New Decks"
