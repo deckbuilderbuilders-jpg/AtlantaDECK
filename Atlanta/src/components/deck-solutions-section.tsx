@@ -28,7 +28,7 @@ export default function DeckSolutionsSection({
               {/* Image */}
               <div className="bg-muted h-64">
                 <img
-                  src="/images/deckrepair.png"
+                  src="/deckrepair.png"
                   alt="Deck Repair"
                   className="h-full w-full object-cover"
                 />
@@ -62,7 +62,7 @@ export default function DeckSolutionsSection({
               {/* Image */}
               <div className="bg-muted h-64">
                 <img
-                  src="/images/newbuild.png"
+                  src="/newbuild.png"
                   alt="New Decks"
                   className="h-full w-full object-cover"
                 />
@@ -89,7 +89,7 @@ export default function DeckSolutionsSection({
         {/* Built Better Guarantee badge (kept compact) */}
         <div className="mt-16 flex justify-center">
           <img
-            src="/images/builtbetter.png"
+            src="/builtbetter.png"
             alt="Built Better Guarantee"
             className="w-full max-w-[200px] h-auto"
           />
