@@ -6,13 +6,17 @@ import AboutSection from "@/components/AboutSection";
 import FAQSection from "@/components/FAQSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
+import DeckSolutionsSection from "@/components/deck-solutions-section";
+
+// Then in your return:
+<DeckSolutionsSection />
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
       <HeroSection />
-      <ServicesSection />
+      <DeckSolutionsSection />
       <AboutSection />
       <ProcessSection />
       <FAQSection />
