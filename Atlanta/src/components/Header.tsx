@@ -18,9 +18,9 @@ const Header = () => {
           <a href="#decks" className="text-nav-text hover:text-foreground transition-colors">
             Services
           </a>
-          <a href="#decks" className="text-nav-text hover:text-foreground transition-colors">
+          <Link to="/locations" className="text-nav-text hover:text-foreground transition-colors">
             Locations
-          </a>
+          </Link>
           <a href="#process" className="text-nav-text hover:text-foreground transition-colors">
             Process
           </a>
@@ -43,5 +43,7 @@ const Header = () => {
     </header>
   );
 };
+
+export default Header;
 
 export default Header;
