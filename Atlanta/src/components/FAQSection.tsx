@@ -21,7 +21,7 @@ const FAQSection = () => {
     },
     {
       question: "Do you offer warranties on your work?",
-      answer: "Yes, we provide comprehensive warranties on both materials and workmanship. Specific terms vary by project type."
+      answer: "Yes, we provide comprehensive warranties on both materials and workmanship. We offer a 3 year warranty on our new builds. Specific terms may vary by project type."
     },
     {
       question: "Can you work around existing landscaping?",

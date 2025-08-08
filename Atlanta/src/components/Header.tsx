@@ -1,4 +1,6 @@
 import { Button } from "@/components/ui/button";
+import PortfolioPopup from './PortfolioPopup';
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -14,11 +16,15 @@ const Header = () => {
         {/* Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
           <a href="#decks" className="text-nav-text hover:text-foreground transition-colors">
-            Decks
+            Services
+          </a>
+          <a href="#decks" className="text-nav-text hover:text-foreground transition-colors">
+            Locations
           </a>
           <a href="#process" className="text-nav-text hover:text-foreground transition-colors">
             Process
           </a>
+          <PortfolioPopup />
           <a href="#faq" className="text-nav-text hover:text-foreground transition-colors">
             FAQ
           </a>
