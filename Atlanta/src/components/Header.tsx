@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import PortfolioPopup from './PortfolioPopup';
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
