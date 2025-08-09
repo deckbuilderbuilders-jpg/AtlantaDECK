@@ -8,9 +8,9 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center">
-          <Link to="/" className="hover:opacity-80 transition-opacity">
+         <Link to="/" className="hover:opacity-80 transition-opacity">
             <h1 className="text-2xl font-bold text-foreground">
-              Atlanta<span className="text-sm align-super">®</span>
+              Atlanta Deck Co<span className="text-sm align-super">®</span>
             </h1>
           </Link>
         </div>
@@ -20,9 +20,9 @@ const Header = () => {
           <a href="#decks" className="text-nav-text hover:text-foreground transition-colors">
             Services
           </a>
-          <a href="#decks" className="text-nav-text hover:text-foreground transition-colors">
+          <Link to="/locations" className="text-nav-text hover:text-foreground transition-colors">
             Locations
-          </a>
+          </Link>
           <a href="#process" className="text-nav-text hover:text-foreground transition-colors">
             Process
           </a>
