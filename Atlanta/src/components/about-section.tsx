@@ -1,6 +1,4 @@
 import type React from "react"
-
-import Image from "next/image"
 import { Card, CardContent } from "@/components/ui/card"
 
 type Service = {
@@ -63,17 +61,15 @@ function ServiceCard({ title, subtitle, img, alt }: Service) {
             {/* Favicon top-left with emerald accent */}
             <div className="mb-4 flex items-start">
               <div className="rounded-md ring-2 ring-emerald-600/25">
-                <Image
+                <img
                   src={img || "/placeholder.svg?height=70&width=70&query=colored%20deck%20service%20icon"}
                   alt={alt}
                   width={70}
                   height={70}
                   className="h-[70px] w-[70px] object-contain"
-                  priority
                 />
               </div>
             </div>
-
             {/* Centered text block */}
             <div className="flex flex-1 items-center justify-center text-center">
               <div className="px-2">
@@ -99,7 +95,6 @@ export default function AboutSection() {
         <div className="mb-12 text-center sm:mb-16">
           <h2 className="text-4xl font-extrabold tracking-tight text-zinc-900 sm:text-5xl">Deck Services we Provide</h2>
         </div>
-
         {/* 1 col mobile, 2 cols tablet, 2 cols desktop like the screenshot grid */}
         <div className="grid grid-cols-1 gap-10 md:grid-cols-2 xl:grid-cols-2">
           {services.map((s) => (
