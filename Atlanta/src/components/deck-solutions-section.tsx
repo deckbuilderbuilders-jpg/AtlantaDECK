@@ -24,7 +24,7 @@ export default function DeckSolutionsSection({
               className="pointer-events-none absolute inset-0 translate-x-4 translate-y-4 rounded-2xl bg-neutral-900/80 transition-transform duration-300 ease-out group-hover:translate-x-6 group-hover:translate-y-6"
             />
             <Card className="relative rounded-2xl border border-black/20 ring-1 ring-black/5 overflow-hidden transition-transform duration-300 ease-out group-hover:-translate-y-1.5">
-              <div className="bg-white h-80 p-6 flex justify-center" style={{ marginRight: '20%' }}>
+              <div className="bg-white h-96 p-6 flex justify-center" style={{ marginRight: '20%' }}>
                 <img
                   src="/repairfinal.png"
                   alt="Deck Repair"
@@ -32,15 +32,15 @@ export default function DeckSolutionsSection({
                 />
               </div>
               <CardContent className="px-8 md:px-12 pt-3 md:pt-4 pb-8 md:pb-10">
-                <h3 className="text-center text-black text-4xl md:text-3xl font-bold mb-4">
+                <h3 className="text-center text-black text-4xl md:text-5xl font-bold mb-4 uppercase tracking-wider">
                   Fix Your Deck
                 </h3>
                 <p className="text-center text-black text-base md:text-lg">
-                  {"Send us a pic and get a quote, same day."}
+                  Send us a pic and get a quote, same day.
                 </p>
                 <div className="my-8 h-px w-full bg-muted-foreground/20" />
                 <div className="flex">
-                  <span className="text-[#F47B2A] font-semibold tracking-wide">{"GET STARTED"}</span>
+                  <span className="text-[#F47B2A] font-semibold tracking-wide">GET STARTED</span>
                 </div>
               </CardContent>
             </Card>
@@ -53,7 +53,7 @@ export default function DeckSolutionsSection({
               className="pointer-events-none absolute inset-0 translate-x-4 translate-y-4 rounded-2xl bg-neutral-900/80 transition-transform duration-300 ease-out group-hover:translate-x-6 group-hover:translate-y-6"
             />
             <Card className="relative rounded-2xl border border-black/20 ring-1 ring-black/5 overflow-hidden transition-transform duration-300 ease-out group-hover:-translate-y-1.5">
-              <div className="bg-white h-80 p-6 flex justify-center" style={{ marginRight: '20%' }}>
+              <div className="bg-white h-96 p-6 flex justify-center" style={{ marginRight: '20%' }}>
                 <img
                   src="/buildfinal.png"
                   alt="New Decks"
@@ -61,15 +61,15 @@ export default function DeckSolutionsSection({
                 />
               </div>
               <CardContent className="px-8 md:px-12 pt-3 md:pt-4 pb-8 md:pb-10">
-                <h3 className="text-center text-black text-4xl md:text-3xl font-bold mb-4">
-                  Build A Deck
+                <h3 className="text-center text-black text-4xl md:text-5xl font-bold mb-4 uppercase tracking-wider">
+                  New Builds
                 </h3>
                 <p className="text-center text-black text-base md:text-lg">
-                  {"Book a free call to discuss materials, style and costs."}
+                  Book a free call to discuss materials, style and costs.
                 </p>
                 <div className="my-8 h-px w-full bg-muted-foreground/20" />
                 <div className="flex">
-                  <span className="text-[#F47B2A] font-semibold tracking-wide">{"GET STARTED"}</span>
+                  <span className="text-[#F47B2A] font-semibold tracking-wide">GET STARTED</span>
                 </div>
               </CardContent>
             </Card>
