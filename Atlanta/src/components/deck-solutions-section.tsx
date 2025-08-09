@@ -32,8 +32,8 @@ export default function DeckSolutionsSection({
                 />
               </div>
               <CardContent className="px-8 md:px-12 pt-3 md:pt-4 pb-8 md:pb-10">
-                <h3 className="text-center text-black text-xl md:text-2xl font-bold mb-4">
-                  Deck Repairs
+                <h3 className="text-center text-black text-4xl md:text-3xl font-bold mb-4">
+                  Fix Your Deck
                 </h3>
                 <p className="text-center text-black text-base md:text-lg">
                   {"Send us a pic and get a quote, same day."}
@@ -61,8 +61,8 @@ export default function DeckSolutionsSection({
                 />
               </div>
               <CardContent className="px-8 md:px-12 pt-3 md:pt-4 pb-8 md:pb-10">
-                <h3 className="text-center text-black text-xl md:text-2xl font-bold mb-4">
-                  New Builds
+                <h3 className="text-center text-black text-4xl md:text-3xl font-bold mb-4">
+                  Build A Deck
                 </h3>
                 <p className="text-center text-black text-base md:text-lg">
                   {"Book a free call to discuss materials, style and costs."}
