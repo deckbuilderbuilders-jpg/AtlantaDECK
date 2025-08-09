@@ -28,7 +28,7 @@ export default function DeckSolutionsSection({
               {/* Image */}
               <div className="bg-white h-80 flex items-center justify-center p-4">
                 <img
-                  src="/deckrepair.png"
+                  src="/repairfinal.png"
                   alt="Deck Repair"
                   className="w-full h-full object-contain"
                 />
@@ -62,7 +62,7 @@ export default function DeckSolutionsSection({
               {/* Image */}
               <div className="bg-white h-80 flex items-center justify-center p-6">
                 <img
-                  src="/newbuild.png"
+                  src="/buildfinal.png"
                   alt="New Decks"
                   className="max-h-full max-w-full object-contain"
                 />
