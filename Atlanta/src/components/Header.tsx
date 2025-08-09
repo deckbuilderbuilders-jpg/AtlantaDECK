@@ -9,7 +9,7 @@ const Header = () => {
         {/* Logo */}
         <div className="flex items-center">
           <h1 className="text-2xl font-bold text-foreground">
-            Atlanta<span className="text-sm align-super">®</span>
+            Atlanta Deck Co<span className="text-sm align-super">®</span>
           </h1>
         </div>
 
