@@ -93,7 +93,7 @@ export default function AboutSection() {
     <section className="bg-background py-20 sm:py-24">
       <div className="mx-auto max-w-6xl px-6">
         <div className="mb-12 text-center sm:mb-16">
-          <h2 className="text-4xl font-extrabold tracking-tight text-zinc-900 sm:text-5xl">Deck Services we Provide</h2>
+          <h2 className="text-4xl font-extrabold tracking-tight text-zinc-900 sm:text-5xl">Deck Services</h2>
         </div>
         {/* 1 col mobile, 2 cols tablet, 2 cols desktop like the screenshot grid */}
         <div className="grid grid-cols-1 gap-10 md:grid-cols-2 xl:grid-cols-2">
