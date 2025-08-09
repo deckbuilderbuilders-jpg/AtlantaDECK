@@ -64,7 +64,7 @@ export default function DeckSolutionsSection({
                 <img
                   src="/buildfinal.png"
                   alt="New Decks"
-                  className="max-h-full max-w-full object-contain"
+                  className="w-full h-full object-contain"
                 />
               </div>
 
