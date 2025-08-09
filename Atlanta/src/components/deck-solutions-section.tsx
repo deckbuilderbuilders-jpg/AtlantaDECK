@@ -24,7 +24,7 @@ export default function DeckSolutionsSection({
               className="pointer-events-none absolute inset-0 translate-x-4 translate-y-4 rounded-2xl bg-neutral-900/80 transition-transform duration-300 ease-out group-hover:translate-x-6 group-hover:translate-y-6"
             />
             <Card className="relative rounded-2xl border border-black/20 ring-1 ring-black/5 overflow-hidden transition-transform duration-300 ease-out group-hover:-translate-y-1.5">
-              <div className="bg-white h-80 p-6 flex justify-center">
+              <div className="bg-white h-80 p-6 flex justify-center" style={{ marginRight: '20%' }}>
                 <img
                   src="/repairfinal.png"
                   alt="Deck Repair"
@@ -50,7 +50,7 @@ export default function DeckSolutionsSection({
               className="pointer-events-none absolute inset-0 translate-x-4 translate-y-4 rounded-2xl bg-neutral-900/80 transition-transform duration-300 ease-out group-hover:translate-x-6 group-hover:translate-y-6"
             />
             <Card className="relative rounded-2xl border border-black/20 ring-1 ring-black/5 overflow-hidden transition-transform duration-300 ease-out group-hover:-translate-y-1.5">
-              <div className="bg-white h-80 p-6 flex justify-center">
+              <div className="bg-white h-80 p-6 flex justify-center" style={{ marginRight: '20%' }}>
                 <img
                   src="/buildfinal.png"
                   alt="New Decks"
