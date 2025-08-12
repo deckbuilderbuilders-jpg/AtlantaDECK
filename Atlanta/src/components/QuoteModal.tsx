@@ -96,3 +96,32 @@ const QuoteModal = ({ buttonText = "Get a Quote", buttonClass = "px-8 py-6 text-
                     Call now +1 404 259 5099
                   </a>
                 </p>
+              </div>
+
+              <div className="flex gap-3">
+                <Button type="submit" className="flex-1">
+                  Submit Quote Request
+                </Button>
+                <Button 
+                  type="button" 
+                  variant="outline" 
+                  onClick={() => setIsOpen(false)}
+                >
+                  Cancel
+                </Button>
+              </div>
+            </form>
+            
+            {status && (
+              <p className={`mt-4 text-center ${status.includes('Failed') || status.includes('error') ? 'text-red-600' : 'text-green-600'}`}>
+                {status}
+              </p>
+            )}
+          </div>
+        </div>
+      )}
+    </>
+  );
+};
+
+export default QuoteModal;
