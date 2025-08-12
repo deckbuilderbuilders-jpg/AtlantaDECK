@@ -17,7 +17,7 @@ const Header = () => {
 
         {/* Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
-          <a href="#decks" className="text-nav-text hover:text-foreground transition-colors">
+          <a href="#deckservices" className="text-nav-text hover:text-foreground transition-colors">
             Services
           </a>
           <Link to="/locations" className="text-nav-text hover:text-foreground transition-colors">
