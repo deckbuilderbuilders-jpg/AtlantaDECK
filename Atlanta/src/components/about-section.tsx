@@ -12,25 +12,25 @@ const services: Service[] = [
   {
     title: "Deck Repairs",
     subtitle: "Fix it fast with our same day quotes",
-    img: "/images/services/repairs.png",
+    img: "/placeholder.svg?height=70&width=70",
     alt: "Hammer and plank icon",
   },
   {
-    title: "Maintenance",
+    title: "Maintenance", 
     subtitle: "Make your deck last with annual maintenance",
-    img: "/images/services/maintenance.png",
+    img: "/placeholder.svg?height=70&width=70",
     alt: "Wrench and checklist icon",
   },
   {
     title: "Upgrades",
-    subtitle: "Refresh your existing deck with new upgrades",
-    img: "/images/services/upgrades.png",
+    subtitle: "Refresh your existing deck with new upgrades", 
+    img: "/placeholder.svg?height=70&width=70",
     alt: "Sparkles over deck boards icon",
   },
   {
     title: "New Builds",
     subtitle: "Create your dream outdoor space with a new deck",
-    img: "/images/services/new-builds.png",
+    img: "/placeholder.svg?height=70&width=70", 
     alt: "House and deck outline icon",
   },
 ]
