@@ -90,7 +90,7 @@ function ServiceCard({ title, subtitle, img, alt }: Service) {
 
 export default function AboutSection() {
   return (
-    <section className="bg-background py-20 sm:py-24">
+    <section id="deckservices" className="bg-background py-20 sm:py-24">
       <div className="mx-auto max-w-6xl px-6">
         <div className="mb-12 text-center sm:mb-16">
           <h2 className="text-4xl font-extrabold tracking-tight text-zinc-900 sm:text-5xl">Deck Services</h2>
