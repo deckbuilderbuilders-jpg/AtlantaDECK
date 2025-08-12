@@ -1,5 +1,3 @@
-const fetch = require('node-fetch');
-
 export default async function handler(req, res) {
   if (req.method === 'POST') {
     const { name, email, phone, message } = req.body;
