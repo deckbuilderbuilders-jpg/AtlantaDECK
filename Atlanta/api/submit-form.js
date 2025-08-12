@@ -3,7 +3,6 @@ export default async function handler(req, res) {
     const { name, email, phone, message } = req.body;
 
     try {
-      // Save to Baserow
       const baserowResponse = await fetch(`https://api.baserow.io/api/database/rows/table/${process.env.BASEROW_TABLE_ID}/?user_field_names=true`, {
         method: 'POST',
         headers: {
@@ -11,14 +10,17 @@ export default async function handler(req, res) {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          name,
-          email,
-          phone,
-          message,
+          "Name": name,
+          "Email": email,
+          "Number": phone,
+          "Project Description": message,
+          "Date": new Date().toISOString().split('T')[0] // Today's date
         }),
       });
 
       if (!baserowResponse.ok) {
+        const errorText = await baserowResponse.text();
+        console.error('Baserow error:', errorText);
         throw new Error('Failed to save to Baserow');
       }
 
