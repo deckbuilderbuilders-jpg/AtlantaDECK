@@ -10,7 +10,7 @@ type DeckSolutionsSectionProps = {
 
 export default function DeckSolutionsSection({
   className,
-  repairHref = "/repairs",
+  repairHref = "/deck-repairs",
   newDeckHref = "/new-decks",
 }: DeckSolutionsSectionProps) {
   return (
