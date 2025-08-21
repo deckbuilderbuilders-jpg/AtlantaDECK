@@ -27,7 +27,7 @@ const steps = [
   },
 ]
 
-export function DeckProcess() {
+export function DeckBuildProcess() {
   return (
     <section className="py-16 px-4 bg-gray-50">
       <div className="max-w-6xl mx-auto">
