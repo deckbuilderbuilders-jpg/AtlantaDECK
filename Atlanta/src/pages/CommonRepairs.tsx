@@ -6,16 +6,16 @@ import { LocationsSection } from "@/components/locations-section"
 import FAQSection from "@/components/faq-section"
 import Footer from "@/componenets/Footer"
 
-export default function Home() {
-  return (
+const CommonRepairs = () => {
+   return (
     <main className="min-h-screen">
-      <Header />
       <DeckRepairs />
       <DeckProcess />
       <ServicePromise />
       <LocationsSection />
       <FAQSection />
-      <Footer />
     </main>
-  )
-}
+  );
+};
+
+export default Index;
