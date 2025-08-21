@@ -1,5 +1,5 @@
 import { DeckHero } from "@/components/deck-hero"
-import { DeckProcess } from "@/components/deck-process"
+import { DeckBuildProcess } from "@/components/deck-build-process"
 import { DeckDesignOptions } from "@/components/deck-design-options"
 import { ServicePromise } from "@/components/service-promise"
 import { LocationsSection } from "@/components/locations-section"
@@ -10,7 +10,7 @@ export default function Home() {
     <main className="min-h-screen">
       <DeckHero />
       <DeckDesignOptions />
-      <DeckProcess />
+      <DeckBuildProcess />
       <ServicePromise />
       <LocationsSection />
       <FAQSection />
