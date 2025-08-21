@@ -19,4 +19,4 @@ const CommonRepairs = () => {
   );
 };
 
-export default Index;
+export default CommonRepairs;
