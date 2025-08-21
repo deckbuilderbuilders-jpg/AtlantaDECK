@@ -11,7 +11,6 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <Header />
-      <DeckHero />
       <CommonRepairs />
       <DeckProcess />
       <ServicePromise />
