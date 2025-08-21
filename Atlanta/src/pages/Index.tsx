@@ -8,8 +8,6 @@ import Footer from "@/components/Footer";
 import DeckSolutionsSection from "@/components/deck-solutions-section";
 import AboutSection from "@/components/about-section";
 
-// Then in your return:
-<DeckSolutionsSection />
 
 const Index = () => {
   return (
