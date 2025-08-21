@@ -3,7 +3,7 @@ import { DeckBuildProcess } from "@/components/deck-build-process"
 import { DeckDesignOptions } from "@/components/deck-design-options"
 import { ServicePromise } from "@/components/service-promise"
 import { LocationsSection } from "@/components/locations-section"
-import FAQSection from "@/components/FaqSection"
+import FAQSection from "@/components/FAQSection"
 
 export default function Home() {
   return (
