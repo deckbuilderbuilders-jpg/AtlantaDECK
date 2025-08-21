@@ -1,3 +1,4 @@
+import Header from "@/components/Header";
 import { DeckHero } from "@/components/deck-hero"
 import { DeckProcess } from "@/components/deck-process"
 import { CommonRepairs } from "@/components/common-repairs"
