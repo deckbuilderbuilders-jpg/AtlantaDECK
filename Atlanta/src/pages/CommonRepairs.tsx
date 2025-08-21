@@ -1,5 +1,5 @@
 import Header from "@/components/Header"
-import { DeckProcess } from "@/components/deck-process"
+import { DeckProcess } from "@/components/deck-repair-process"
 import { DeckRepairs } from "@/components/deck-repairs"
 import { ServicePromise } from "@/components/service-promise"
 import { LocationsSection } from "@/components/locations-section"
