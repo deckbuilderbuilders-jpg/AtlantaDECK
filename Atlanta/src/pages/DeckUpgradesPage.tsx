@@ -7,11 +7,11 @@ import { LocationsSection } from "@/components/locations-section"
 import FAQSection from "@/components/FAQSection"
 import Footer from "@/components/Footer"
 
-const CommonRepairs = () => {
+const DeckUpgrades = () => {
    return (
     <main className="min-h-screen">
       <Header />
-      <DeckRepairs />
+      <DeckUpgrades />
       <DeckProcess />
       <ServicePromise />
       <LocationsSection />
@@ -21,4 +21,4 @@ const CommonRepairs = () => {
   );
 };
 
-export default CommonRepairs;
+export default DeckUpgrades;
