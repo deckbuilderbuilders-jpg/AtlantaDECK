@@ -10,11 +10,13 @@ import Footer from "@/components/Footer"
 const CommonRepairs = () => {
    return (
     <main className="min-h-screen">
+      <Header />
       <DeckRepairs />
       <DeckProcess />
       <ServicePromise />
       <LocationsSection />
       <FAQSection />
+      <Footer />
     </main>
   );
 };
