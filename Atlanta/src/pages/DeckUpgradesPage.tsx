@@ -1,6 +1,7 @@
 import Header from "@/components/Header"
 import DeckUpgrades from "@/components/DeckUpgrades"
 import { DeckRepairProcess } from "@/components/deck-repair-process"
+import { DeckRepairs } from "@/components/deck-repairs"
 import { DeckProcess } from "@/components/deck-process"
 import { ServicePromise } from "@/components/service-promise"
 import { LocationsSection } from "@/components/locations-section"
