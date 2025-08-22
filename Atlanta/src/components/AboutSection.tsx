@@ -30,7 +30,7 @@ const services: Service[] = [
     subtitle: "Refresh your existing deck with new upgrades", 
     img: "/placeholder.svg?height=70&width=70",
     alt: "Sparkles over deck boards icon",
-    // href: undefined (no link for now)
+    href: "/deck-upgrades:",
   },
   {
     title: "New Builds",
