@@ -7,7 +7,7 @@ import { LocationsSection } from "@/components/locations-section"
 import FAQSection from "@/components/FAQSection"
 import Footer from "@/components/Footer"
 
-const DeckUpgradesaPage = () => {
+const DeckUpgradesPage = () => {
    return (
     <main className="min-h-screen">
       <Header />
