@@ -6,7 +6,7 @@ import FAQSection from "@/components/FAQSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 import DeckSolutionsSection from "@/components/deck-solutions-section";
-import AboutSection from "@/components/about-section";
+import AboutSection from "@/components/AboutSection";
 
 
 const Index = () => {
