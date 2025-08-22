@@ -27,7 +27,7 @@ const App = () => (
           <Route path="/new-decks" element={<NewBuild />} />
           <Route path="/common-repairs" element={<CommonRepairs />} />  {/* ← Add this route */}
           <Route path="/deck-maintenance" element={<DeckMaintenancePage />} />
-          <Route path="/deck-upgrades" element={<DeckUpgradesPAge />} /> 
+          <Route path="/deck-upgrades" element={<DeckUpgradesPage />} /> 
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
