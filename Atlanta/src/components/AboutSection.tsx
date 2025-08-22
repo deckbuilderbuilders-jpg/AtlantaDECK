@@ -23,7 +23,7 @@ const services: Service[] = [
     subtitle: "Make your deck last with annual maintenance",
     img: "/placeholder.svg?height=70&width=70",
     alt: "Wrench and checklist icon",
-    // href: undefined (no link for now)
+    href: "/deck-maintenance",
   },
   {
     title: "Upgrades",
