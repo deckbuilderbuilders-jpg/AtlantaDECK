@@ -9,7 +9,7 @@ import DeckRepairs from "./pages/DeckRepairs";
 import NewBuild from "./pages/NewBuild";
 import CommonRepairs from "./pages/CommonRepairs";  // ← Add this import
 import NotFound from "./pages/NotFound";
-import DeckMaintenance from "./pages/DeckMaintenance";
+import DeckMaintenancePage from "./pages/DeckMaintenance";
 
 const queryClient = new QueryClient();
 
@@ -25,7 +25,7 @@ const App = () => (
           <Route path="/deck-repairs" element={<DeckRepairs />} />
           <Route path="/new-decks" element={<NewBuild />} />
           <Route path="/common-repairs" element={<CommonRepairs />} />  {/* ← Add this route */}
-          <Route path="/deck-maintenance" element={<DeckMaintenance />} />
+          <Route path="/deck-maintenance" element={<DeckMaintenancePage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
