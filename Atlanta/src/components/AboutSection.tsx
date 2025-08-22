@@ -37,7 +37,7 @@ const services: Service[] = [
     subtitle: "Create your dream outdoor space with a new deck",
     img: "/placeholder.svg?height=70&width=70", 
     alt: "House and deck outline icon",
-    // href: undefined (no link for now)
+    href: /"new-decks",
   },
 ]
 
