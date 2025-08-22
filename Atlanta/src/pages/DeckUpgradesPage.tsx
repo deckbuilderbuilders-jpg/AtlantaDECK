@@ -7,7 +7,7 @@ import { LocationsSection } from "@/components/locations-section"
 import FAQSection from "@/components/FAQSection"
 import Footer from "@/components/Footer"
 
-const DeckUpgrades = () => {
+const DeckUpgradesaPage = () => {
    return (
     <main className="min-h-screen">
       <Header />
@@ -21,4 +21,4 @@ const DeckUpgrades = () => {
   );
 };
 
-export default DeckUpgrades;
+export default DeckUpgradesPage;
