@@ -12,7 +12,7 @@ const DeckMaintenancePage = () => {
    return (
     <main className="min-h-screen">
       <Header />
-      <DeckRepairs />
+      <DeckMaintenance />
       <DeckProcess />
       <ServicePromise />
       <LocationsSection />
