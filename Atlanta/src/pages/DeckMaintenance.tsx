@@ -8,7 +8,7 @@ import { LocationsSection } from "@/components/locations-section"
 import FAQSection from "@/components/FAQSection"
 import Footer from "@/components/Footer"
 
-const DeckMaintenance = () => {
+const DeckMaintenancePage = () => {
    return (
     <main className="min-h-screen">
       <Header />
@@ -22,4 +22,4 @@ const DeckMaintenance = () => {
   );
 };
 
-export default DeckMaintenance;
+export default DeckMaintenancePage;
