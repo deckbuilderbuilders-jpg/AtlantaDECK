@@ -8,7 +8,7 @@ import { LocationsSection } from "@/components/locations-section"
 import FAQSection from "@/components/FAQSection"
 import Footer from "@/components/Footer"
 
-const CommonRepairs = () => {
+const DeckMaintenance = () => {
    return (
     <main className="min-h-screen">
       <Header />
