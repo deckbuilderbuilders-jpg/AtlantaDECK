@@ -24,7 +24,7 @@ const maintenanceServices = [
   },
 ]
 
-export function DeckMaintenance() {
+export default function DeckMaintenance() {
   return (
     <section className="py-16 px-4 bg-white">
       <div className="max-w-7xl mx-auto">
