@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 import DeckSolutionsSection from "@/components/deck-solutions-section";
 import AboutSection from "@/components/AboutSection";
 import DeckCTABanner from "@/components/deck-cta-banner";
+import BusinessPromise from "@/components/business-promise";
 
 
 const Index = () => {
@@ -18,7 +19,7 @@ const Index = () => {
       <DeckSolutionsSection />
       <DeckCTABanner />
       <AboutSection />
-      <ProcessSection />
+      <BusinessPromise />
       <FAQSection />
       <CTASection />
       <Footer />
