@@ -7,6 +7,7 @@ import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 import DeckSolutionsSection from "@/components/deck-solutions-section";
 import AboutSection from "@/components/AboutSection";
+import DeckCTABanner from "@/components/deck-cta-banner"/
 
 
 const Index = () => {
@@ -15,6 +16,7 @@ const Index = () => {
       <Header />
       <HeroSection />
       <DeckSolutionsSection />
+      <DeckCTABanner />
       <AboutSection />
       <ProcessSection />
       <FAQSection />
