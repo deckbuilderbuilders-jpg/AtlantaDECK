@@ -76,13 +76,6 @@ export default function DeckSolutionsSection({
           </Link>
         </div>
 
-        <div className="mt-16 flex justify-center">
-          <img
-            src="/builtbetter.png"
-            alt="Built Better Guarantee"
-            className="w-full max-w-[200px] h-auto"
-          />
-        </div>
       </div>
     </section>
   );
