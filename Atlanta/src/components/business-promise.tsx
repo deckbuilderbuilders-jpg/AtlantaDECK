@@ -2,7 +2,7 @@ import { BUSINESS_NAME } from "@/lib/constants"
 import { Card } from "@/components/ui/card"
 import { GraduationCap, Shield, Wrench } from "lucide-react"
 
-export function BusinessPromise() {
+export default function BusinessPromise() {
   return (
     <section className="py-16 px-4 bg-white">
       <div className="max-w-6xl mx-auto">
