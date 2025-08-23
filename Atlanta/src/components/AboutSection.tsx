@@ -1,14 +1,14 @@
-import type React from "react"
-import { Link } from "react-router-dom"
-import { Card, CardContent } from "@/components/ui/card"
+import type React from "react";
+import { Link } from "react-router-dom";
+import { Card, CardContent } from "@/components/ui/card";
 
 type Service = {
-  title: string
-  subtitle: string
-  img: string
-  alt: string
-  href?: string // Add optional href for links
-}
+  title: string;
+  subtitle: string;
+  img: string;
+  alt: string;
+  href?: string; // Add optional href for links
+};
 
 const services: Service[] = [
   {
@@ -19,7 +19,7 @@ const services: Service[] = [
     href: "/common-repairs", // Link to CommonRepairs page
   },
   {
-    title: "Maintenance", 
+    title: "Maintenance",
     subtitle: "Make your deck last with annual maintenance",
     img: "/placeholder.svg?height=70&width=70",
     alt: "Wrench and checklist icon",
@@ -27,7 +27,7 @@ const services: Service[] = [
   },
   {
     title: "Upgrades",
-    subtitle: "Refresh your existing deck with new upgrades", 
+    subtitle: "Refresh your existing deck with new upgrades",
     img: "/placeholder.svg?height=70&width=70",
     alt: "Sparkles over deck boards icon",
     href: "/deck-upgrades",
@@ -35,16 +35,16 @@ const services: Service[] = [
   {
     title: "New Builds",
     subtitle: "Create your dream outdoor space with a new deck",
-    img: "/placeholder.svg?height=70&width=70", 
+    img: "/placeholder.svg?height=70&width=70",
     alt: "House and deck outline icon",
     href: "/new-decks",
   },
-]
+];
 
 // One consistent shadow style for every card (matches screenshot/location cards)
 function ShadowCard({ children, isClickable }: { children: React.ReactNode; isClickable?: boolean }) {
   return (
-    <div className={`relative h-full group ${isClickable ? 'cursor-pointer' : ''}`}>
+    <div className={`relative h-full group ${isClickable ? "cursor-pointer" : ""}`}>
       {/* Offset black shadow block */}
       <div
         aria-hidden="true"
@@ -55,7 +55,7 @@ function ShadowCard({ children, isClickable }: { children: React.ReactNode; isCl
         {children}
       </Card>
     </div>
-  )
+  );
 }
 
 function ServiceCard({ title, subtitle, img, alt, href }: Service) {
@@ -91,7 +91,7 @@ function ServiceCard({ title, subtitle, img, alt, href }: Service) {
         </CardContent>
       </ShadowCard>
     </div>
-  )
+  );
 
   // If href exists, wrap with Link, otherwise return card content as-is
   if (href) {
@@ -99,10 +99,10 @@ function ServiceCard({ title, subtitle, img, alt, href }: Service) {
       <Link to={href} className="block" aria-label={`Navigate to ${title}`}>
         {cardContent}
       </Link>
-    )
+    );
   }
 
-  return cardContent
+  return cardContent;
 }
 
 export default function AboutSection() {
@@ -118,7 +118,14 @@ export default function AboutSection() {
             <ServiceCard key={s.title} {...s} />
           ))}
         </div>
+        <div className="mt-16 flex justify-center">
+          <img
+            src="/builtbetter.png"
+            alt="Built Better Guarantee"
+            className="w-full max-w-[200px] h-auto"
+          />
+        </div>
       </div>
     </section>
-  )
+  );
 }
