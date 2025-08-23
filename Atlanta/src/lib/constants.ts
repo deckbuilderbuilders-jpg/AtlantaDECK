@@ -1,1 +1,1 @@
-export const BUSINESS_NAME = "Atlanta Decks"
+export const BUSINESS_NAME = "Atlanta Deck Co"
