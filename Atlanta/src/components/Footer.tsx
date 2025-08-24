@@ -23,9 +23,6 @@ const Footer = () => {
             <h4 className="font-semibold mb-4 text-background">Services</h4>
             <ul className="space-y-2 text-background/80">
               <li><a href="#" className="hover:text-background transition-colors">Custom Decks</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">Patio Construction</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">Outdoor Kitchens</a></li>
-              <li><a href="#" className="hover:text-background transition-colors">Pergolas & Gazebos</a></li>
               <li><a href="#" className="hover:text-background transition-colors">Deck Repairs</a></li>
             </ul>
           </div>
