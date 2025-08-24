@@ -9,8 +9,8 @@ const Footer = () => {
               Atlanta Deck Co<span className="text-sm align-super">®</span>
             </h3>
             <p className="text-background/80 mb-6 max-w-md">
-              Atlanta's trusted deck and patio builders. We combine transparent pricing 
-              with exceptional craftsmanship to create outdoor spaces you'll love.
+              Atlanta's trusted deck builders. We combine transparent pricing 
+              with an exceptional customer experience to create outdoor spaces you'll love.
             </p>
             <div className="text-background/80">
               <p>Licensed & Insured</p>
