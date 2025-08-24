@@ -6,7 +6,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="md:col-span-2">
             <h3 className="text-2xl font-bold mb-4">
-              Atlanta<span className="text-sm align-super">®</span>
+              Atlanta Deck Co<span className="text-sm align-super">®</span>
             </h3>
             <p className="text-background/80 mb-6 max-w-md">
               Atlanta's trusted deck and patio builders. We combine transparent pricing 
@@ -43,7 +43,7 @@ const Footer = () => {
 
         <div className="border-t border-background/20 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-background/60 text-sm">
-            © 2024 Atlanta Decks. All rights reserved.
+            © 2025 Atlanta Deck Co. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-background/60 hover:text-background text-sm transition-colors">
